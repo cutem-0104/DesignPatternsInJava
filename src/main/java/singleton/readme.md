@@ -29,3 +29,15 @@ need to take care of lazy instantiation and thread safety
 
 a component which is instantiated only once.
 1回だけインスタンス化されるコンポーネント
+
+makeing a `safe` singleton is easy:construst a static lazy<t> and return its value
+安全なシングルトンを作るのは簡単です：スタティックな遅延<t>を求めてその値を返します
+
+singletons are difficult to test
+シングルトンはテストするのが難しい
+
+instead of directly using a singleton, consider depending on an abstraction(e.g., an interface)
+シングルトンを直接使用する代わりに、抽象化（例えば、インタフェース）に依存して、
+
+consider defining singleton lifetime in DI container
+DIコンテナのシングルトンライフタイムを定義することを検討する
