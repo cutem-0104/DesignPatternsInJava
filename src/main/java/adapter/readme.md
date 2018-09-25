@@ -23,7 +23,7 @@ A construct which adapts an existing interface X to conform to the required inte
 
 既存のインタフェースXを必要なインタフェースYに適合させるための構造体。
 
-implememtsing an adapter is easy.
+implementing an adapter is easy.
 determine the api you have and the api you need.
 create a component which aggregates (has a reference to,...) the adaptee.
 intermediate representations can pile up: use caching and other optimizations.
