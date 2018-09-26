@@ -16,3 +16,24 @@ build a decorator, which simply references the decorated object(s).
 
 facilitates the addition of behaviors to individual objects without inheriting from them.
 それらから継承せずに個々のオブジェクトへの動作の追加を容易にします。
+
+a decorator keeps the reference to the decorated object(s).
+may or may not forward calls.
+ide can generate delegated members.
+exists in a static variation.
+x<y<foo>> (
+/* unpleasant constructor args */
+)
+very limited due to.
+type erasure.
+inability to inherit from type parameters.
+デコレータは装飾されたオブジェクトへの参照を保持します。
+通話を転送してもしなくてもよい。
+ideは委任されたメンバーを生成できます。
+静的なバリエーションに存在します。
+x <y <foo >>（
+/ *不愉快なコンストラクタargs * /
+）
+非常に限られています。
+タイプ消去。
+型パラメータから継承できない
